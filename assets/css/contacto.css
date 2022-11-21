@@ -1,0 +1,46 @@
+footer {
+    background-color: var(--dark-bg-1);
+}
+footer .social-bar {
+    background-color: var(--light-gray);
+}
+
+footer .social-bar .label a {
+    color: var(--title-color);
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+footer .contact .contact_form .section-title {
+    color: var(--white);
+    font-family: "Raleway", sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+footer .contact .contact_form input {
+    background: transparent;
+}
+footer .contact .contact_form textarea {
+    background: transparent;
+}
+footer .contact .contact_form input::placeholder,
+footer .contact .contact_form textarea::placeholder {
+    color: var(--text-color-2);
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+footer .contact .contact_content .section-title {
+    color: var(--white);
+    font-family: "Raleway", sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+footer .contact .contact_content address,
+footer .contact .contact_content h4 {
+    font-style: normal;
+    color: var(--text-color-2);
+}
